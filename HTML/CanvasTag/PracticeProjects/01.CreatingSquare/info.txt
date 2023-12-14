@@ -1,0 +1,28 @@
+
+
+(1) HTMLCanvasElement.getContext()
+
+HTMLCanvasElement.getContext() method returns a drawing context on the canvas, or null if the context identifier is not supported, '2d' representing a two-dimensional rendering context. 
+
+
+Syntax,
+
+getContext(contextType)
+getContext(contextType, contextAttributes)
+
+Parameters,
+
+"2d"
+leading to the creation of a CanvasRenderingContext2D object representing a two-dimensional rendering context. 
+
+
+"webgl"
+a three-dimensional rendering context. This context is only available on browsers that implement WebGL version 1 (OpenGL ES 2.0). 
+
+"webgpu"
+which will create a GPUCanvasContext object representing a three-dimensional rendering context for WebGPU render pipelines. This context is only available on browsers that implement The WebGPU API. 
+
+
+(2)  CanvasRenderingContext2D.fillRect()
+
+draws a rectangle that is filled according to the current fillStyle. 
